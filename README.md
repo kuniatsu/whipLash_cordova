@@ -47,6 +47,6 @@ Cordovaのエミュレータで実行
 $ cordova emulate ios # ios-simが入ってないとエラーが出る
 
 # Androidはできない。$ cordova emulate androidはerrorとなる。
-
+# AndroidはAndroid studioで開いて実行して確認
 ```
 
