@@ -2,7 +2,7 @@
 
 platform :ios, '10.0'
 
-target 'whipLash_todo' do
-	project 'whipLash_todo.xcodeproj'
+target 'turboTask' do
+	project 'turboTask.xcodeproj'
 
 end

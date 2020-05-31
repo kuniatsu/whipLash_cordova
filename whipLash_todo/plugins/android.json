@@ -7,8 +7,14 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-plugin-insomnia": {
+      "PACKAGE_NAME": "com.turbotask.todo"
+    },
+    "cordova-plugin-tts": {
+      "PACKAGE_NAME": "com.turbotask.todo"
+    },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.whipLash.todo"
+      "PACKAGE_NAME": "com.turbotask.todo"
     }
   },
   "dependent_plugins": {}
