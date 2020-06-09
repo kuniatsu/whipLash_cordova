@@ -685,3 +685,19 @@ function platformInfo(){
     }
 }
 
+function keepAwake(){
+    console.log("function to keepAwake");
+    if(window.plugins !== undefined){
+        console.log("window.plugins !== undefined");
+        window.plugins.insomnia.keepAwake();
+    }
+}
+
+function allowSleep(){
+    console.log("function to allowSleep");
+    if(window.plugins !== undefined){
+        console.log("window.plugins !== undefined");
+        window.plugins.insomnia.allowSleepAgain();
+    }
+}
+

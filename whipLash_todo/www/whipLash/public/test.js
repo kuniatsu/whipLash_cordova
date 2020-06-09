@@ -53,4 +53,43 @@
         console.log(obj.getName());
 
     });
+
+    alertbt.addEventListener('click',()=>{
+        console.log("click to alertbt");
+        alert("test");
+    });
+
+    keepAwake_id.addEventListener('click',()=>{
+        console.log("click to keepAwake");
+        alert("keepAwake_id");
+        if(window.plugins !== undefined){
+            console.log("window.plugins !== undefined");
+            window.plugins.insomnia.keepAwake();
+        }else{
+            console.dir(window);
+            console.dir(window.plugins);
+        }
+    });
+
+    allowSleep_id.addEventListener('click',()=>{
+        console.log("click to allowSleep");
+        alert("allowSleep_id");
+        if(window.plugins !== undefined){
+            console.log("window.plugins !== undefined");
+            window.plugins.insomnia.allowSleepAgain();
+        }else{
+            console.dir(window);
+            console.dir(window.plugins);
+        }
+    });
+
+    keepAwake_id2.addEventListener('click',()=>{
+        keepAwake();
+    });
+
+    allowSleep_id2.addEventListener('click',()=>{
+        allowSleep();
+    });
+
+
 })();
