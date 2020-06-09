@@ -33,13 +33,13 @@
   },
   "installed_plugins": {
     "cordova-plugin-insomnia": {
-      "PACKAGE_NAME": "com.turbotask.todo"
+      "PACKAGE_NAME": "com.realistictask.todo"
     },
     "cordova-plugin-tts": {
-      "PACKAGE_NAME": "com.turbotask.todo"
+      "PACKAGE_NAME": "com.realistictask.todo"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "com.turbotask.todo"
+      "PACKAGE_NAME": "com.realistictask.todo"
     }
   },
   "dependent_plugins": {},
