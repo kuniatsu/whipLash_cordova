@@ -91,5 +91,9 @@
         allowSleep();
     });
 
+    talk_id.addEventListener('click',()=>{
+        var a = getTitle();
+        talk(a);
+    });
 
 })();

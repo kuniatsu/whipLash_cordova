@@ -629,6 +629,10 @@ function changeTitle() {
     tts.speak(titleText+"開始");
 }
 
+function getTitle(){
+    return taskList.children[0].innerText;
+}
+
 
 
 
@@ -701,3 +705,4 @@ function allowSleep(){
     }
 }
 
+function talk(){}//読み上げる
