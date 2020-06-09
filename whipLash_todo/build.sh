@@ -4,6 +4,8 @@ rm -rf platforms/ios
 cordova platform add ios
 cordova plugin add https://github.com/EddyVerbruggen/Insomnia-PhoneGap-Plugin.git
 cordova prepare
-cordova build 
+npm i cordova-plugin-insomnia
+# cordova build 
+cordova build ios --prod
 # cordova emulate ios
 # echo emulater up -> $ cordovaemulate ios
