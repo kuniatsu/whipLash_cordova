@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.turbotask.todo" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>turboTask</name>
+<widget id="com.realistictask.todo" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>realisticTask</name>
     <description>
         Quickly grasp the task and find the critical path!
-        Only on the turboTask!
+        Only on the realisticTask!
     </description>
     <author email="satisfied9@gmail.com" href="https://github.com/kuniatsu/whipLash">
         Atsushi Kunishima.
